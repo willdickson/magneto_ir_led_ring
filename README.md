@@ -3,6 +3,9 @@ PCB with ring of IR LEDs for magno tether rig.
 
 * [Bill-of-materials](BOM.txt)
 
+# 3D View
+![3D_view](images/view_3d.png)
+
 # Top View: 
 ![top_view](images/pcb_top.png)
 
