@@ -1,5 +1,5 @@
 # magneto_ir_led_ring 
-PCB with ring of IR LEDs for magno tether rig.
+PCB with ring of IR LEDs for backlighting rig with magnetic tether.
 
 * [Bill-of-materials](BOM.txt)
 
