@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:led_ring-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED D1
+L led_ring-rescue:LED D1
 U 1 1 5B089FC0
 P 3300 1700
 F 0 "D1" H 3300 1800 50  0000 C CNN
@@ -58,7 +26,7 @@ F 3 "" H 3300 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x02 J1
+L led_ring-rescue:Conn_01x02 J1
 U 1 1 5B08A20D
 P 2650 1800
 F 0 "J1" H 2650 1900 50  0000 C CNN
@@ -69,7 +37,7 @@ F 3 "" H 2650 1800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D2
+L led_ring-rescue:LED D2
 U 1 1 5B08B467
 P 3700 1700
 F 0 "D2" H 3700 1800 50  0000 C CNN
@@ -80,7 +48,7 @@ F 3 "" H 3700 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D3
+L led_ring-rescue:LED D3
 U 1 1 5B08B4C1
 P 4100 1700
 F 0 "D3" H 4100 1800 50  0000 C CNN
@@ -91,7 +59,7 @@ F 3 "" H 4100 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D4
+L led_ring-rescue:LED D4
 U 1 1 5B08B4C7
 P 4500 1700
 F 0 "D4" H 4500 1800 50  0000 C CNN
@@ -102,7 +70,7 @@ F 3 "" H 4500 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D5
+L led_ring-rescue:LED D5
 U 1 1 5B08B749
 P 4900 1700
 F 0 "D5" H 4900 1800 50  0000 C CNN
@@ -113,7 +81,7 @@ F 3 "" H 4900 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D6
+L led_ring-rescue:LED D6
 U 1 1 5B08B74F
 P 5300 1700
 F 0 "D6" H 5300 1800 50  0000 C CNN
@@ -124,7 +92,7 @@ F 3 "" H 5300 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D7
+L led_ring-rescue:LED D7
 U 1 1 5B08B755
 P 5700 1700
 F 0 "D7" H 5700 1800 50  0000 C CNN
@@ -135,7 +103,7 @@ F 3 "" H 5700 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D8
+L led_ring-rescue:LED D8
 U 1 1 5B08B75B
 P 6100 1700
 F 0 "D8" H 6100 1800 50  0000 C CNN
@@ -146,7 +114,7 @@ F 3 "" H 6100 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D9
+L led_ring-rescue:LED D9
 U 1 1 5B08B9F6
 P 6500 1700
 F 0 "D9" H 6500 1800 50  0000 C CNN
@@ -157,7 +125,7 @@ F 3 "" H 6500 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D10
+L led_ring-rescue:LED D10
 U 1 1 5B08B9FC
 P 6900 1700
 F 0 "D10" H 6900 1800 50  0000 C CNN
@@ -168,7 +136,7 @@ F 3 "" H 6900 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D11
+L led_ring-rescue:LED D11
 U 1 1 5B08BA02
 P 7300 1700
 F 0 "D11" H 7300 1800 50  0000 C CNN
@@ -179,7 +147,7 @@ F 3 "" H 7300 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D12
+L led_ring-rescue:LED D12
 U 1 1 5B08BA08
 P 7700 1700
 F 0 "D12" H 7700 1800 50  0000 C CNN
@@ -220,7 +188,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 1800 2950 1950
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5B08C64A
 P 2950 1950
 F 0 "#PWR01" H 2950 1700 50  0001 C CNN
@@ -233,7 +201,7 @@ $EndComp
 Wire Wire Line
 	7950 1700 7950 1950
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 5B08CBFA
 P 7950 1950
 F 0 "#PWR02" H 7950 1700 50  0001 C CNN
@@ -246,10 +214,10 @@ $EndComp
 Text Notes 4050 2400 0    60   ~ 0
 LED Digikey PN:  VSMY1850X01CT-ND 
 $Comp
-L PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG03
 U 1 1 5B118E7A
 P 8850 1750
-F 0 "#FLG?" H 8850 1825 50  0001 C CNN
+F 0 "#FLG03" H 8850 1825 50  0001 C CNN
 F 1 "PWR_FLAG" H 8850 1900 50  0000 C CNN
 F 2 "" H 8850 1750 50  0001 C CNN
 F 3 "" H 8850 1750 50  0001 C CNN
@@ -257,10 +225,10 @@ F 3 "" H 8850 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR04
 U 1 1 5B118F10
 P 8850 1950
-F 0 "#PWR?" H 8850 1700 50  0001 C CNN
+F 0 "#PWR04" H 8850 1700 50  0001 C CNN
 F 1 "GND" H 8850 1800 50  0000 C CNN
 F 2 "" H 8850 1950 50  0001 C CNN
 F 3 "" H 8850 1950 50  0001 C CNN
