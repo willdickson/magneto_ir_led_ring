@@ -1,6 +1,7 @@
 part            description                  vendor            PN                  QTY
 ---------------------------------------------------------------------------------------
 D1-D12          940nm 0805 LED                LCSC          C131250                12
+R1, R2          75 Ohm 0805 resistor          LCSC          C20638                  2
 J1 (option1)    straight header 0.1"          Digikey       S1011EC-40-ND           1      
 J1 (option2)    right angle header 0.1"       Digikey       S1111EC-40-ND           1
 

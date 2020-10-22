@@ -1,0 +1,63 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.2-bee76a0~70~ubuntu18.04.1*
+G04 #@! TF.CreationDate,2020-10-21T16:40:24-07:00*
+G04 #@! TF.ProjectId,led_ring,6c65645f-7269-46e6-972e-6b696361645f,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Copper,L2,Bot*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 5.0.2-bee76a0~70~ubuntu18.04.1) date Wed 21 Oct 2020 04:40:24 PM PDT*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD10R,1.700000X1.700000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD11O,1.700000X1.700000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD12C,3.175000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ViaPad*
+%ADD13C,0.685800*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
+%ADD14C,0.381000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.P,J1,1*
+G04 #@! TO.N,GND*
+X64770000Y-52070000D03*
+D11*
+G04 #@! TO.P,J1,2*
+G04 #@! TO.N,Net-(D1-Pad2)*
+X64770000Y-49530000D03*
+G04 #@! TD*
+D12*
+G04 #@! TO.P,M1,1*
+G04 #@! TO.N,N/C*
+X50800000Y-38100000D03*
+G04 #@! TD*
+G04 #@! TO.P,M2,1*
+G04 #@! TO.N,N/C*
+X50800000Y-63500000D03*
+G04 #@! TD*
+D13*
+G04 #@! TO.N,Net-(D1-Pad2)*
+X43771200Y-52483800D03*
+G04 #@! TD*
+D14*
+G04 #@! TO.N,Net-(D1-Pad2)*
+X64770000Y-49530000D02*
+X61405500Y-49530000D01*
+X61405500Y-49530000D02*
+X56119400Y-54816100D01*
+X56119400Y-54816100D02*
+X46103500Y-54816100D01*
+X46103500Y-54816100D02*
+X43771200Y-52483800D01*
+G04 #@! TD*
+M02*
