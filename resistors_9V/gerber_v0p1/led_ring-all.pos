@@ -1,0 +1,20 @@
+### Module positions - created on Wed Dec  9 10:29:03 2020 ###
+### Printed by Pcbnew version kicad 5.1.7-a382d34a8~87~ubuntu18.04.1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val       Package                   PosX       PosY       Rot  Side
+D1        LED       LED_0805_2012Metric    56.7690   -50.8000    0.0000  top
+D2        LED       LED_0805_2012Metric    55.9693   -47.8155   30.0000  top
+D3        LED       LED_0805_2012Metric    53.7845   -45.6307   60.0000  top
+D4        LED       LED_0805_2012Metric    50.8000   -44.8310   90.0000  top
+D5        LED       LED_0805_2012Metric    47.8155   -45.6307  120.0000  top
+D6        LED       LED_0805_2012Metric    45.6307   -47.8155  150.0000  top
+D7        LED       LED_0805_2012Metric    44.8310   -50.8000  180.0000  top
+D8        LED       LED_0805_2012Metric    45.6307   -53.7845  210.0000  top
+D9        LED       LED_0805_2012Metric    47.8155   -55.9693  240.0000  top
+D10       LED       LED_0805_2012Metric    50.8000   -56.7690  270.0000  top
+D11       LED       LED_0805_2012Metric    53.7845   -55.9693  300.0000  top
+D12       LED       LED_0805_2012Metric    55.9693   -53.7845  330.0000  top
+R1        75        R_0805_2012Metric      60.7060   -52.9590  180.0000  top
+R2        75        R_0805_2012Metric      60.7060   -48.7680  180.0000  top
+## End
