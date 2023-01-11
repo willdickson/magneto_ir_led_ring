@@ -1,0 +1,15 @@
+
+LED1
+----
+description,           part,    vendor,  PN,       QTY
+623nm 0805 LED,        D1-D12,  LCSC,    C965812,  12
+160 Ohm 0805 resistor,  R1 R2,  LCSC,    C246032,   2
+
+LED2
+----
+description,           part,    vendor,  PN,       QTY
+635nm 0805 LED,        D1-D12,  LCSC,    C434431,  12
+160 Ohm 0805 resistor,  R1 R2,  LCSC,    C246032,   2
+
+
+
